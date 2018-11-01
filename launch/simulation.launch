@@ -1,0 +1,12 @@
+<launch>
+
+    <rosparam file="$(find mesh_sim)/config/config.yaml" command="load"/>
+    <node name="node1" pkg="mesh_sim" type="node" output="screen"/>
+    <node name="node2" pkg="mesh_sim" type="node" output="screen"/>
+    <node name="node3" pkg="mesh_sim" type="node" output="screen"/>
+    <node name="node4" pkg="mesh_sim" type="node" output="screen"/>
+    <node name="node5" pkg="mesh_sim" type="node" output="screen"/>
+    <node name="node6" pkg="mesh_sim" type="node" output="screen"/>
+    <node name="node7" pkg="mesh_sim" type="node" output="screen"/>
+
+</launch>
